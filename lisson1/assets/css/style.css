@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+}
+.navigation{
+    background-color: #181818;
+    height: 100vh;
+    width: 20vw;
+    
+    
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-logo a {
+    text-decoration: none;
+    color: #EEEEEE;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 32px;
+}
+.nav-list{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+.nav-list ul li{
+    list-style: none;
+    
+}
+.nav-list  a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    line-height: 9vh;
+}
+.nav-list a:hover{
+    background-color: #EEEEEE;
+    color: black;
+    transition: 0,2s;
+    display: block;
+    width: 20vw;
+    text-align: center;
+    
+}
+nav{
+    float: left;
+    display: flex;
+}
+.text-glav {
+    text-align: center;
+
+
+}
+.text-glav h1{
+    font-size: 44px;
+}
+.text-glav p{
+    font-size: 34px;
+}
